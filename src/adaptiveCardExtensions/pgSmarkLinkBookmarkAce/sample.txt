@@ -1,0 +1,69 @@
+{
+  "schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+      {
+          "type": "TextBlock",
+          "text": "Global Bookmarks",
+          "horizontalAlignment": "Center",
+          "fontType": "Default",
+          "weight": "Bolder",
+          "size": "Default",
+          "spacing": "ExtraLarge",
+          "color": "Accent",
+          "isSubtle": false,
+          "wrap": true,
+          "maxLines": 0
+      },
+      {
+          "type": "Container",
+          "separator": true,
+          "$data": "${bookmarkByAdmin}",
+          "items": [
+              {
+                  "type": "TextBlock",
+                  "text": "${siteName} - ${pageName}",
+                  "wrap": true,
+                  "color": "Good",
+                  "spacing": "None"
+              }
+          ],
+          "selectAction": {
+              "type": "Action.OpenUrl",
+              "url": "${pageURL}"
+          }
+      },
+      {
+          "type": "TextBlock",
+          "text": "Personalized Bookmarks",
+          "wrap": true,
+          "horizontalAlignment": "Center",
+          "fontType": "Default",
+          "weight": "Bolder",
+          "size": "Default",
+          "style": "default",
+          "color": "Accent",
+          "spacing": "Medium",
+          "separator": true
+      },
+      {
+          "type": "Container",
+          "separator": true,
+          "$data": "${bookmarkByUser}",
+          "items": [
+              {
+                  "type": "TextBlock",
+                  "text": "${siteName} - ${pageName}",
+                  "wrap": true,
+                  "color": "Good"
+              }
+          ],
+          "selectAction": {
+              "type": "Action.OpenUrl",
+              "url": "${pageURL}"
+          }
+      }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+}

@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.20.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.2",
+    "libraryName": "pg-smark-link-bookmark-ace",
+    "libraryId": "aceacd1f-04b9-462e-93b6-80a1c35125ff",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "pgSmarkLinkBookmarkACE",
+    "solutionShortDescription": "pgSmarkLinkBookmarkACE description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "adaptiveCardExtension",
+    "aceTemplateType": "PrimaryText"
+  }
+}

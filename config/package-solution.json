@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "pg-smark-link-bookmark-ace-client-side-solution",
+    "id": "aceacd1f-04b9-462e-93b6-80a1c35125ff",
+    "version": "4.1.1.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "pgSmarkLinkBookmarkACE description"
+      },
+      "longDescription": {
+        "default": "pgSmarkLinkBookmarkACE description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "pg-smark-link-bookmark-ace Feature",
+        "description": "The feature that activates elements of the pg-smark-link-bookmark-ace solution.",
+        "id": "c6c3d60b-4aa1-4f31-9f02-2411bf6aba27",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/pg-smark-link-bookmark-ace.sppkg"
+  }
+}
